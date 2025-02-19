@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="528.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.farmingdale.login_project.LandingScreen">
+   <children>
+      <VBox layoutX="590.0" layoutY="26.0" prefHeight="315.0" prefWidth="134.0">
+         <children>
+            <TextField promptText="enter data" />
+            <TextField promptText="enter data" />
+            <TextField promptText="enter data" />
+            <TextField promptText="enter data" />
+         </children>
+      </VBox>
+      <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="725.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox layoutX="153.0" layoutY="26.0" prefHeight="501.0" prefWidth="437.0">
+         <children>
+            <Label text="Label" />
+         </children>
+      </HBox>
+      <ImageView fitHeight="99.0" fitWidth="97.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
